@@ -30,16 +30,18 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(50, 0, 50);
+    /* background-color: rgb(50, 0, 50); */
+    background-image: linear-gradient(to right, whitesmoke, rgb(185, 185, 185), whitesmoke);
 }
 
 nav>a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 150%;
     font-family: 'Press Start 2P', Times, serif;
-    padding: 10px;
+    padding: 15px;
+    border-bottom: solid black;
 }
 
 nav ul {
@@ -65,8 +67,7 @@ nav ul li a {
 }
 
 .links {
-    background-image: none;
-    background-color: whitesmoke;
+    background-image: linear-gradient(to right, whitesmoke, rgb(185, 185, 185), whitesmoke);
 }
 
 
@@ -199,6 +200,9 @@ footer a {
     nav {
         flex-direction: row;
         justify-content: space-around;
+    }
+    nav>a {
+        font-size: 25px;
     }
     nav ul {
         flex-direction: row;
