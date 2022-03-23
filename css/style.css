@@ -1,7 +1,8 @@
 /* CORPO */
 
 body {
-    font-family: Asap, sans-serif;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
     color: #1c1c1c;
 }
 
@@ -38,7 +39,7 @@ nav>a {
     text-decoration: none;
     color: black;
     font-weight: 800;
-    font-size: 130%;
+    font-size: 140%;
     font-family: 'Press Start 2P', Times, serif;
     padding: 12px;
     border-bottom: solid black;
@@ -104,6 +105,15 @@ header p {
     margin-bottom: 2em;
 }
 
+header a {
+    text-decoration: none;
+    color: #2356ff;
+}
+
+header a:hover {
+    color: #ff8800;
+}
+
 #sobre {
     display: flex;
     flex-direction: column;
@@ -135,7 +145,7 @@ header p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 0 30px 30px;
+    padding: 50px 30px;
 }
 
 #servicos div {
@@ -143,7 +153,11 @@ header p {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 30px
+}
+
+#servicos img {
+    height: 100px;
 }
 
 
